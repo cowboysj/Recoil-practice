@@ -1,12 +1,10 @@
-import React from "react";
 import { RecoilRoot } from "recoil";
-import Counter from "./Counter";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <RecoilRoot>
-      <div>ㅎㅎ</div>
-      <Counter />
+      <Home />
     </RecoilRoot>
   );
 }
